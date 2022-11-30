@@ -1,7 +1,7 @@
  <h1 align="center">Huawei-OpenMediation Mediation Github Documentation</h3>
  
  
- ![Latest Version](https://img.shields.io/badge/latestVersion-999-yellow)
+ ![Latest Version](https://img.shields.io/badge/latestVersion-2.6.5-yellow)
 <br>
 ![Supported Platforms](https://img.shields.io/badge/Supported_Platforms:-Native_Android_-orange)
 
@@ -181,7 +181,7 @@ To allow HTTP and HTTPS network requests on devices with targetSdkVersion 28 or 
 
 # Version Change History
 
-## 9.9.9
+## 2.6.5
 Latest version
 
 
