@@ -14,7 +14,7 @@ OpenMediation repository link is [here](https://github.com/OpenMediationProject/
 
 # Compatibility
 
-|   | Banner Ad | Interstitial Ad | Rewarded Ad | Native Ad |
+|   | Banner Ad | Interstitial Ad | Rewarded Video Ad | Native Ad |
 | --- | --- | --- | --- | --- |
 | Native (Java/Kotlin) | ✅ | ✅ | ✅ | ✅ |  ✅ |
 
