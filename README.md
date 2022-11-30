@@ -225,25 +225,26 @@ To use _Native_ ads in Native android apps, please check the OpenMediation Media
 <table>
 <tr>
 <td>
-<img src="https://user-images.githubusercontent.com/44730864/204792574-36f3cdb2-3ea7-48c6-acc4-4f6b13f9fdf7.png">
+<img alt="banner" src="https://user-images.githubusercontent.com/44730864/204800119-6c31a173-6502-40cd-ac10-7634057a7d50.png" width="200">
 
 Banner Ad
 </td>
 
 <td>
-<img src="https://user-images.githubusercontent.com/44730864/204792676-29f4aba0-dec1-4846-b582-08cff6fe2980.png">
+<img alt="interstitial" src="https://user-images.githubusercontent.com/44730864/204799931-f9168239-b55a-458e-b723-580459d2c7d2.png" width="200">
+
 
 Interstitial Ad
 </td>
 
 <td>
-<img src="https://user-images.githubusercontent.com/44730864/204792774-7fd0c999-7b5a-4211-9a8c-ab7ff6182a76.png">
+<img src="https://user-images.githubusercontent.com/44730864/204792774-7fd0c999-7b5a-4211-9a8c-ab7ff6182a76.png" width="200">
  
 Rewarded Ad
 </td>
 
 <td>
-<img src="https://user-images.githubusercontent.com/44730864/204792908-006c044e-1960-40f1-9d24-9529d7a713a6.png">
+<img src="https://user-images.githubusercontent.com/44730864/204792908-006c044e-1960-40f1-9d24-9529d7a713a6.png" width="200">
 
 Native Ad
 </td>
