@@ -219,7 +219,6 @@ To use _Native_ ads in Native android apps, please check the OpenMediation Media
 
 
 
-# Screenshots
 
 # Screenshots
 
@@ -233,7 +232,6 @@ Banner Ad
 
 <td>
 <img src="https://user-images.githubusercontent.com/44730864/204792676-29f4aba0-dec1-4846-b582-08cff6fe2980.png">
-
 
 Interstitial Ad
 </td>
@@ -249,7 +247,6 @@ Rewarded Ad
 
 Native Ad
 </td>
-
 </tr>
 </tr>
 </table>
