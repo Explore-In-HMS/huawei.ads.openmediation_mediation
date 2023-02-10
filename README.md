@@ -217,8 +217,47 @@ To use _Rewarded Video_ ads in Native android apps, please check the OpenMediati
 To use _Native_ ads in Native android apps, please check the OpenMediation Mediation SDK. Click [here](https://support.openmediation.com/hc/en-us/articles/360044811433-Native) to get more information about OpenMediation Mediation SDKs Native Ad development.
 
 
+## **Unity**
 
+This section demonstrates how to use OpenMediation feature with Huawei Ads Kit on Unity.
 
+Make sure to check the article on [How to use Huawei Ads with Supported Ad Platforms in Unity ?](https://medium.com/huawei-developers/how-to-use-huawei-ads-with-supported-ad-platforms-in-unity-2be08c943a7f)
+
+**Supported Ad Formats are:** Banner Ads, Interstitial Ads and Rewarded Ads.
+
+Firstly, integrate the OpenMediation Unity Plugin to Unity.
+
+For more details on OpenMediation Unity Plugin visit [here](https://support.openmediation.com/hc/en-us/articles/360025308573-Unity-Plugin-Integration#before-you-start-0-0)
+
+### **Banner Ads**
+To use Banner ads in Unity , please check the OpenMediation Unity Plugin. Click [here](https://support.openmediation.com/hc/en-us/articles/360026339613-Ad-Unit#banner-ad-0-3) to get more information about OpenMediation Unity Plugin Banner Ad development.
+
+### **Interstitial Ads**
+To use Interstitial ads in Unity, please check the OpenMediation Unity Plugin. Click [here](https://support.openmediation.com/hc/en-us/articles/360026339613-Ad-Unit#interstitial-ad-0-2) to get more information about OpenMediation Unity Plugin Interstitial Ad development.
+
+### **Rewarded Ads**
+To use Rewarded ads in Unity, please check the OpenMediation Unity Plugin. Click [here](https://support.openmediation.com/hc/en-us/articles/360026339613-Ad-Unit#rewarded-video-ad-0-1) to get more information about OpenMediation Unity Plugin Banner Ad development.
+
+#### **Step 1:**
+Make sure to switch to the Android Platform from **Build Settings -> Android -> Switch Platform**
+#### **Step 2:**
+**Edit -> Project Settings ->  Player -> Other Settings**<br>
+In Other Settings set minimum API level to at least **16**.
+#### **Step 3:**
+**Edit -> Project Settings ->  Player -> Publishing Settings**<br>
+In Publishing Settings select **“Custom Main Gradle Template”** , **“Custom Base Gradle Template”** and **“Custom Greadle Properties Template”** <br>
+This will let you override **mainTemplate.gradle** , **baseProjectTemplate.gradle** and **gradleTemplate.properties** files in the project.
+#### **Step 4:**
+**baseProjectTemplate.gradle** is equal to **project-level gradle** so you have to include **Huawei's Maven repositories** from the Integrate the Huawei Mediation SDK section from [**here**](#integrate-huawei-sdk). <br>
+**mainTemplate.gradle** is equal to **app-level build.gradle** so you have to include **dependencies** from the Integrate the Huawei Mediation SDK section from [**here**](#app-level).
+#### **Step 5:**
+Open **gradleTemplate.properties** and add the following lines
+```groovy
+android.useAndroidX=true
+android.enableJetifier=true
+```
+
+After these configurations is completed you can display Huawei Ads.
 
 # Screenshots
 
