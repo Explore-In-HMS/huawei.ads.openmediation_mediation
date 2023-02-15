@@ -3,7 +3,7 @@
  
  ![Latest Version](https://img.shields.io/badge/latestVersion-2.6.5-yellow)
 <br>
-![Supported Platforms](https://img.shields.io/badge/Supported_Platforms:-Native_Android_-orange)
+![Supported Platforms](https://img.shields.io/badge/Supported_Platforms:-Native_Android_,_Unity_-orange)
 
 
 # Introduction
@@ -16,7 +16,8 @@ OpenMediation repository link is [here](https://github.com/OpenMediationProject/
 
 |   | Banner Ad | Interstitial Ad | Rewarded Video Ad | Native Ad |
 | --- | --- | --- | --- | --- |
-| Native (Java/Kotlin) | ✅ | ✅ | ✅ | ✅ |  ✅ |
+| Native (Java/Kotlin) | ✅ | ✅ | ✅ | ✅ | 
+| Unity | ✅ | ✅ | ✅ | ❌ |
 
 
 
